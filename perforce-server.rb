@@ -5,7 +5,7 @@ class PerforceServer < Formula
 
   if MacOS.prefer_64_bit?
     url "http://filehost.perforce.com/perforce/r15.1/bin.darwin90x86_64/p4d"
-    sha256 "b42758ebe7b54e672b513c34c88f399d0da7b4de1fd23b9f56d222a4f1f3bae5"
+    sha256 "e987475bfc54129d8d54a0d54363db3ecf6e6852a00daa0c6ffc20b8df1e0e63"
   else
     url "http://filehost.perforce.com/perforce/r15.1/bin.darwin90x86/p4d"
     sha256 "0ecfd0510091232a53c24e426e1d48d460604ec3f9ea896d02736f93d151d5a5"
