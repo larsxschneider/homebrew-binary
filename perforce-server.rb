@@ -1,7 +1,7 @@
 class PerforceServer < Formula
   desc "Server for the Perforce revision control system"
   homepage "http://www.perforce.com/"
-  version "2015.1.1171507"
+  version "2015.1.1227227"
 
   if MacOS.prefer_64_bit?
     url "http://filehost.perforce.com/perforce/r15.1/bin.darwin90x86_64/p4d"
